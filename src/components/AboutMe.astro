@@ -1,0 +1,56 @@
+---
+import Container from "./Container.astro"
+---
+
+<div id="about" class="py-16 md:py-24">
+  <Container>
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- Image -->
+      <div class="flex justify-center md:order-2">
+        <img 
+          src="/ken-photo.png" 
+          alt="Pedro - Personal Trainer" 
+          class="rounded-2xl shadow-xl max-w-sm w-full object-cover"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="md:order-1 space-y-6">
+        <div>
+          <p class="text-primary font-semibold text-sm uppercase tracking-wide mb-2">Sobre mim</p>
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+            Prazer, sou o Pedro.
+          </h2>
+        </div>
+
+        <div class="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+          <p>
+            Sou formado em Educação Física pela Universidade Anhembi Morumbi e tenho especialização em treinamento funcional e qualidade de vida. Trabalho com consultoria personalizada há mais de 5 anos, ajudando pessoas a descobrirem que o movimento pode ser leve, prazeroso e transformador.
+          </p>
+
+          <p>
+            Acredito que cada corpo tem um ritmo, e que o melhor treino é aquele que você consegue manter. Por isso, o meu trabalho vai além das séries e repetições — é sobre criar um hábito real, que faz sentido pra sua vida.
+          </p>
+
+          <p>
+            Atendo desde jovens que querem performance até pessoas acima dos 60 anos que buscam mais disposição, mobilidade e qualidade de vida. Todo mundo merece se sentir bem no próprio corpo.
+          </p>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="pt-4">
+          <a
+            href="https://wa.me/5514996318482"
+            target="_blank"
+            rel="noreferrer"
+            class="inline-flex h-11 items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 relative"
+          >
+            <span class="relative text-base font-semibold text-white">
+              Iniciar meu acompanhamento
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</div>

@@ -6,15 +6,17 @@ import Layout from '../layouts/Layout.astro';
 import Testimonials from '../components/Testimonials.astro';
 import CallToAction from '../components/CallToAction.astro';
 import Blog from '../components/Blog.astro';
+import AboutMe from '../components/AboutMe.astro';
+import OnlineConsult from '../components/OnlineConsult.astro';
+import PresencialConsult from '../components/PresencialConsult.astro';
 ---
 
 <Layout title="Welcome to Astrolus.">
 	<main class="space-y-40 mb-40">
 		<HeroSection/>
-		<Features/>
-		<Stats/>
+		<AboutMe/>
+		<OnlineConsult/>
+		<PresencialConsult/>
 		<Testimonials/>
-		<CallToAction/>
-		<Blog/>
 	</main>
 </Layout>
